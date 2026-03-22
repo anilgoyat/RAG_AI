@@ -116,7 +116,7 @@ answer_relevancy = 0.68
 Ensures grounded responses and reduces hallucinations.
 
 📂 Project Structure
-BookRAGProject/
+RAGProject/
 
 config/
  └── config.py
@@ -274,11 +274,11 @@ Moderately aligned with question intent
 
 Build image
 
-docker build -t bookrag .
+docker build -t rag .
 
 Run container
 
-docker run -p 8000:8000 bookrag
+docker run -p 8000:8000 rag
 🧪 Production-Grade Capabilities Implemented
 
 This system includes features typically found in enterprise GenAI stacks:
